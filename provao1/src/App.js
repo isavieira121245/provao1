@@ -1,19 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react';
 import './App.css';
- 
+import SimpleCounter from './componentes/SimpleCounter';
+
 function App() {
- 
-  const [contador, setContador] = useState(0);
- 
   return (
-    <div className="App">
-    <p>Você clicou {contador} vezes </p>
-    <button onClick={() => setContador(contador + 1)}>
-clique +1
- 
-    </button>
- 
-    </div>
-  );
-}
-export default App;
+      <div className="App">
+            <h1>Meu Contador Simples</h1>
+                  <SimpleCounter />
+                      </div>
+                        );
+                        }
+
+                        export default App;
