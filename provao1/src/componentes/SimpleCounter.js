@@ -17,7 +17,7 @@ const SimpleCounter = () => {
                         <div className="simple-counter">
                               <h2>Contador: {contador}</h2>
                                     <button onClick={adicionar}>Incrementar</button>
-                                          <button onClick={subtrair}>Decrementar</button>
+                                          <button onClick={subtrair}>Descrementar</button>
                                               </div>
                                                 );
                                                 };
