@@ -1,13 +1,3 @@
-function contador(){
-    return(
-        <div className="App">
-       <p>Você clicou {contador} vezes</p>
-       <button onClick={()=> setContador(contador + 1)}>
-           Clique Aqui
-       </button>
-        </div>
-       );
-}
 
 import React, { useState } from 'react';
 import './SimpleCounter.css';
