@@ -15,7 +15,7 @@ return (
                              
  <h2>Contador: {contador}</h2>
  <button onClick={adicionar}>Adicionar</button> 
-<button onClick={subtrair}>Substituir</button> </div>
+<button onClick={subtrair}>Substrair</button> </div>
  );
  };
 
