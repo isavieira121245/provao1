@@ -5,7 +5,7 @@ import SimpleCounter from './componentes/SimpleCounter';
 function App() {
   return (
       <div className="App">
-      <h1>Meu Contador Simples</h1>
+      <h1>Meu Contador</h1>
       <SimpleCounter />
  </div>
  );
