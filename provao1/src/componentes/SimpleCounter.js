@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './SimpleCounter.css';
 
@@ -19,4 +18,4 @@ return (
  );
  };
 
-                                                export default SimpleCounter;
+export default SimpleCounter;
